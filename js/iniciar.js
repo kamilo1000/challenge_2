@@ -8,5 +8,5 @@ iniJuego.addEventListener("click",function(event){
 
 agrePalabra.addEventListener("click", function(event){
     event.preventDefault()
-    location.assign("https://kamilo1000.github.io/challenge_2/nuevaPalabra.html")
+    location.assign("https://kamilo1000.github.io/challenge_2/nuePalabra.html")
 })
