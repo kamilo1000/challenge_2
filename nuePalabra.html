@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>juego</title>
+    <link rel="icon" type="image/ico" href="favicon.ico">
+    <link rel="stylesheet" href="estilos/reset.css">
+    <link rel="stylesheet" href="estilos/style.css">
+</head>
+<body>
+    <div id="logo"><img src="Vector.png" alt="logo"></div>
+    <div id="conteAgregar">
+        <textarea name="" onkeypress="return soloLetras(event)" id="agregarPalabra" cols="30" rows="10" placeholder="Ingrese una palabra" minlength="3" maxlength="10"></textarea>
+        <label for="" id="avisoMax">⚠ Max 10 letras</label>
+        <div id="agregarBoton">
+            <button id="guarEmpezar">Guardar y empezar</button>
+            <button id="otra">Agragar otra palabra</button>
+            <button id="cancelar">Cancelar</button>
+        </div>
+    </div>
+    
+    
+
+    <script src="js/nuevaPalabra.js"></script>
+</body>
+</html>

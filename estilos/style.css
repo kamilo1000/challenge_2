@@ -1,0 +1,224 @@
+body{
+    min-height: 100vh;
+    min-width: 100%;
+    background: #E7ECEF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#logo{
+    position: absolute;
+    top: 50px;
+    left: 5%;
+    width: 10%;
+}
+
+#logo img{
+    margin-left: 30px;
+}
+
+section{
+    background-color: #E7ECEF;
+    width: 80%;
+    height: 680px;
+    text-align: center;
+}
+
+#imag{
+    width: 48%;
+    min-width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#perdio{
+    position: absolute;
+    top: 190px;
+    right: 300px;
+    color: #E7ECEF;
+    padding: 20px;
+    font-size: 40PX;
+    letter-spacing: 3px;
+    font-weight: bold;
+}
+
+#errores{
+    font-size: 20px;
+    letter-spacing: 5px;
+    margin: 10px;
+}
+
+button{
+    background: #E7ECEF;
+    width: 30%;
+    height: 67PX;
+    margin: 10px 10px;
+    border-radius: 10px;
+    border: 3px solid #113537;
+    color: #113537;
+
+    font-size: 130%;
+    font-family: "verdana";
+    font-weight: bold;
+}
+
+button:hover{
+    background: #113537;
+    color: #E7ECEF;
+    cursor: pointer;
+    transition: 1s;
+}
+
+#descubierta{
+    color: red;
+}
+
+#contenedor span{
+    font-size: 3em;
+    border-bottom: 4px solid #113537;
+    width: 45px;
+    text-align: center;
+    margin-right: 6px;
+    display: inline-block;
+    color: transparent;
+    font-weight: bold;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+
+#aviso{
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 19%;
+    color: #495057;
+    font-family: "Inter";
+    font-size: 16px;
+    letter-spacing: 2px;
+}
+
+
+
+/*estilos de la pagina iniciar  */
+
+#conteIniciar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    height: 680px;
+}
+
+#conteIniciar button:hover{
+    width: 35%;
+    height: 71PX;
+    transition: 0,8s;
+}
+
+/* ESTILOS AGREGAR PALABRA */
+
+#conteAgregar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 80%;
+    height: 680px;
+}
+
+#conteAgregar textarea{
+    background: transparent;
+    width: 80%;
+    resize: none;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    outline: none;
+    border: 0;
+
+    font-family: "inter";
+    font-style: normal;
+    font-weight: 40px;
+    font-size: 32px;
+    color: #113537;
+}
+
+#avisoMax{
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 4%;
+    color: #495057;
+    font-family: "Inter";
+    font-size: 16px;
+    letter-spacing: 2px;
+}
+
+
+@media screen and (max-width:460px){
+    section{
+        width: 98%;
+    }
+
+    #imagenes{
+        width: 95%;
+        margin-top: 55px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #imagenes img{
+        width: 80%;
+    }
+    
+    #contenedor{
+        margin-bottom: 20px;
+    }
+
+    #contenedor span{
+        width: 30px;
+    }
+
+    #aviso{
+        position: absolute;
+        margin-left: 25px;
+        left: 15px;
+    }
+
+    button{
+        margin-top: 20px;
+        width: 80%;
+    }
+
+    #botonesJuego{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #perdio{
+        position: absolute;
+        width: 80%;
+        right:auto;
+        left: 18px;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 30px;
+        top: 250px;
+    }
+
+    /* PAGINA DE INICIO */
+    #conteIniciar{
+        width: 98%;
+    }
+
+    /* pagina agregar palabra */
+    #conteAgregar{
+        width: 98%;
+        text-align: center;
+    }
+
+    #conteAgregar textarea{
+        margin-top: 40px;
+        
+    }
+}
