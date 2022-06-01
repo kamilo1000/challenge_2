@@ -89,7 +89,7 @@ function aparecerLetraError(){
 
 abandonar.addEventListener("click",function(event){
     event.preventDefault();
-    location.assign("http://127.0.0.1:5500/iniciar.html")  
+    location.assign("https://kamilo1000.github.io/challenge_2/iniciar.html")  
 })
 
 function imagenes(){

@@ -10,12 +10,12 @@ guarEmpezar.addEventListener("click", function(event){
     capturar()
     localStorage.setItem("pal",palabrasNuevas)
     
-    location.assign("http://127.0.0.1:5500/index.html")
+    location.assign("https://kamilo1000.github.io/challenge_2/index.html")
 })
 
 cancelar.addEventListener("click", function(event){
     event.preventDefault()
-    location.assign("http://127.0.0.1:5500/iniciar.html")
+    location.assign("https://kamilo1000.github.io/challenge_2/iniciar.html")
 })
 
 otraPalabra.addEventListener("click", function(event){
