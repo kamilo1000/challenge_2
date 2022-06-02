@@ -85,6 +85,11 @@ button:hover{
     font-weight: bold;
     margin-bottom: 20px;
     margin-top: 30px;
+    
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select:none;
+    -ms-user-select: none;
 }
 
 #aviso{
@@ -96,8 +101,6 @@ button:hover{
     font-size: 16px;
     letter-spacing: 2px;
 }
-
-
 
 /*estilos de la pagina iniciar  */
 
@@ -205,6 +208,26 @@ button:hover{
         font-size: 30px;
         top: 250px;
     }
+
+    .tecladoMovil{
+        background: #E7ECEF;
+        width: 78%;
+        height: 60PX;
+        margin: 10px 10px;
+        border-radius: 10px;
+        border: 3px solid #113537;
+        color: transparent;
+        text-align: center;
+
+        font-size: 130%;
+        font-family: "verdana";
+        font-weight: bold;
+    }
+
+    .tecladoMovil::placeholder {
+        color: #113537;
+    }
+
 
     /* PAGINA DE INICIO */
     #conteIniciar{

@@ -97,3 +97,20 @@ function imagenes(){
     imagen.src = "imagenes/img"+numImagen+".png"                    //cambia la direccion dependiendo del numero que tenga asignada la variable numImagen
 }
 
+
+window.addEventListener("resize",function(){
+    let tamaño = document.body.clientWidth
+    let comprobar = !!document.querySelector(".tecladoMovil")
+    
+    if(tamaño <= 460 && comprobar == false){
+        const crearInput = document.createElement("input")
+        crearInput.className = "tecladoMovil"
+        crearInput.placeholder = "TECLADO"
+        document.querySelector("#botonesJuego").appendChild(crearInput);
+    }
+    if(tamaño >= 460 && comprobar == true){
+        let eliminar = this.document.querySelector(".tecladoMovil")
+        document.querySelector("#botonesJuego").removeChild(eliminar)
+    }
+})
+
